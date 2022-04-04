@@ -116,5 +116,33 @@ form button {
     border: 0;
     border-radius: 10px;
     cursor: pointer;
+}
 
+.ideais {
+    background-color: #E5E5E5;
+    background-size: cover;
+}
+
+.ideais .container {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logos {
+    width: 150px;
+}
+
+.ideais h3 {
+    color: #E6005A;
 }
