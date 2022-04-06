@@ -39,17 +39,14 @@ body {
 
 .banner {
     background-image: url(images/imagem-fundo-aquatec.png);
-    background-size: cover;
+    height: 730px;
 }
 
-.banner .container {
-    height: 550px;
+.banner .container_cadastro {
+    margin: 0;
+    height: 650px;
     display: flex;
     color: white;
-    align-items: center;
-}
-
-.banner .container.login {
     justify-content: center;
 }
 
@@ -74,12 +71,13 @@ body {
 .card {
     background-color: #E5E5E5;
     color: #E6005A;
-    width: 400px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    align-self: center;
 }
 
 .card h2 {
@@ -95,10 +93,12 @@ form {
 
 form label {
     margin-top: 8px;
+    margin-left: 5px;
 }
 
 form input {
     margin-top: 8px;
+    margin-bottom: 20px;
     border: 3px solid #32B9CD;
     outline: 0;
     padding: 8px;
@@ -110,62 +110,10 @@ form button {
     background-color: #E6005A;
     color: white;
     padding: 10px 15px;
-    width: 120px;
+    width: 130px;
     align-self: center;
     font-size: 18px;
     border: 0;
     border-radius: 10px;
     cursor: pointer;
-}
-
-.ideais {
-    background-color: #E5E5E5;
-    background-size: cover;
-}
-
-.ideais .container {
-    height: 550px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.imagem {
-    width: 170px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.logos {
-    width: 150px;
-}
-
-.ideais h3 {
-    color: #E6005A;
-}
-
-.card_cadastro {
-    background-color: #E5E5E5;
-    color: #E6005A;
-    width: 420px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.card_cadastro form input {
-    margin-bottom: 20px;
-    border: 3px solid #32B9CD;
-    outline: 0;
-    padding: 8px;
-    border-radius: 10px;
-}
-
-.banner .container.cadastro {
-    justify-content: center;
 }
